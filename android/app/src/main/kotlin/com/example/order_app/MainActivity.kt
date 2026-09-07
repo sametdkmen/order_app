@@ -1,4 +1,4 @@
-package com.example.odev3
+package com.example.order_app
 
 import io.flutter.embedding.android.FlutterActivity
 

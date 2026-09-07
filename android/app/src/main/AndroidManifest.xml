@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.odev3">
+    package="com.example.order_app">
    <application
         android:label="sepet uygulamam"
         android:name="${applicationName}"

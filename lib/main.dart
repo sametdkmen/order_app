@@ -1,23 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:odev3/anasayfa.dart';
+import 'package:order_app/ui/screens/cart_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const OrderApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class OrderApp extends StatelessWidget {
+  const OrderApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Order App',
       debugShowCheckedModeBanner: false,
-      //sağ üstteki default gelen debug yazısını kaldırdık.
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Anasayfa(),
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: const CartScreen(),
     );
   }
 }
